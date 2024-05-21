@@ -1,8 +1,18 @@
+---
+comments: true
+difficulty: Easy
+edit_url: https://github.com/doocs/leetcode/edit/main/lcci/04.02.Minimum%20Height%20Tree/README_EN.md
+---
+
+<!-- problem:start -->
+
 # [04.02. Minimum Height Tree](https://leetcode.cn/problems/minimum-height-tree-lcci)
 
 [中文文档](/lcci/04.02.Minimum%20Height%20Tree/README.md)
 
 ## Description
+
+<!-- description:start -->
 
 <p>Given a sorted (increasing order) array with unique integer elements, write an algo&shy;rithm to create a binary search tree with minimal height.</p>
 
@@ -30,7 +40,11 @@ One possible answer is: [0,-3,9,-10,null,5]，which represents the following tre
 
 </pre>
 
+<!-- description:end -->
+
 ## Solutions
+
+<!-- solution:start -->
 
 ### Solution 1: Recursion
 
@@ -45,6 +59,8 @@ The execution process of the function `dfs(l, r)` is as follows:
 The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the array.
 
 <!-- tabs:start -->
+
+#### Python3
 
 ```python
 # Definition for a binary tree node.
@@ -65,6 +81,8 @@ class Solution:
 
         return dfs(0, len(nums) - 1)
 ```
+
+#### Java
 
 ```java
 /**
@@ -94,6 +112,8 @@ class Solution {
 }
 ```
 
+#### C++
+
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -119,6 +139,8 @@ public:
 };
 ```
 
+#### Go
+
 ```go
 /**
  * Definition for a binary tree node.
@@ -141,6 +163,8 @@ func sortedArrayToBST(nums []int) *TreeNode {
 	return dfs(0, len(nums)-1)
 }
 ```
+
+#### TypeScript
 
 ```ts
 /**
@@ -168,6 +192,8 @@ function sortedArrayToBST(nums: number[]): TreeNode | null {
     return dfs(0, nums.length - 1);
 }
 ```
+
+#### Rust
 
 ```rust
 // Definition for a binary tree node.
@@ -212,6 +238,8 @@ impl Solution {
 }
 ```
 
+#### JavaScript
+
 ```js
 /**
  * Definition for a binary tree node.
@@ -237,6 +265,43 @@ var sortedArrayToBST = function (nums) {
 };
 ```
 
+#### Swift
+
+```swift
+/**
+* class TreeNode {
+*     var val: Int
+*     var left: TreeNode?
+*     var right: TreeNode?
+*
+*     init(_ val: Int, _ left: TreeNode? = nil, _ right: TreeNode? = nil) {
+*         self.val = val
+*         self.left = left
+*         self.right = right
+*     }
+* }
+*/
+
+class Solution {
+    private var nums: [Int]!
+
+    func sortedArrayToBST(_ nums: [Int]) -> TreeNode? {
+        self.nums = nums
+        return dfs(0, nums.count - 1)
+    }
+
+    private func dfs(_ l: Int, _ r: Int) -> TreeNode? {
+        if l > r {
+            return nil
+        }
+        let mid = (l + r) / 2
+        return TreeNode(nums[mid], dfs(l, mid - 1), dfs(mid + 1, r))
+    }
+}
+```
+
 <!-- tabs:end -->
 
-<!-- end -->
+<!-- solution:end -->
+
+<!-- problem:end -->

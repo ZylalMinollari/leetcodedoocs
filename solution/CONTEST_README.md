@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 力扣竞赛
 
 [English Version](/solution/CONTEST_README_EN.md)
@@ -21,6 +25,48 @@
 如果你想在比赛结束后估算自己的积分变化，可以访问网站 [LeetCode Contest Rating Predictor](https://lccn.lbao.site/)。
 
 ## 往期竞赛
+
+#### 第 398 场周赛(2024-05-19 10:30, 90 分钟) 参赛人数 3606
+
+- [3151. 特殊数组 I](/solution/3100-3199/3151.Special%20Array%20I/README.md)
+- [3152. 特殊数组 II](/solution/3100-3199/3152.Special%20Array%20II/README.md)
+- [3153. 所有数对中数位不同之和](/solution/3100-3199/3153.Sum%20of%20Digit%20Differences%20of%20All%20Pairs/README.md)
+- [3154. 到达第 K 级台阶的方案数](/solution/3100-3199/3154.Find%20Number%20of%20Ways%20to%20Reach%20the%20K-th%20Stair/README.md)
+
+#### 第 397 场周赛(2024-05-12 10:30, 90 分钟) 参赛人数 3365
+
+- [3146. 两个字符串的排列差](/solution/3100-3199/3146.Permutation%20Difference%20between%20Two%20Strings/README.md)
+- [3147. 从魔法师身上吸取的最大能量](/solution/3100-3199/3147.Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/README.md)
+- [3148. 矩阵中的最大得分](/solution/3100-3199/3148.Maximum%20Difference%20Score%20in%20a%20Grid/README.md)
+- [3149. 找出分数最低的排列](/solution/3100-3199/3149.Find%20the%20Minimum%20Cost%20Array%20Permutation/README.md)
+
+#### 第 130 场双周赛(2024-05-11 22:30, 90 分钟) 参赛人数 2604
+
+- [3142. 判断矩阵是否满足条件](/solution/3100-3199/3142.Check%20if%20Grid%20Satisfies%20Conditions/README.md)
+- [3143. 正方形中的最多点数](/solution/3100-3199/3143.Maximum%20Points%20Inside%20the%20Square/README.md)
+- [3144. 分割字符频率相等的最少子字符串](/solution/3100-3199/3144.Minimum%20Substring%20Partition%20of%20Equal%20Character%20Frequency/README.md)
+- [3145. 大数组元素的乘积](/solution/3100-3199/3145.Find%20Products%20of%20Elements%20of%20Big%20Array/README.md)
+
+#### 第 396 场周赛(2024-05-05 10:30, 90 分钟) 参赛人数 2931
+
+- [3136. 有效单词](/solution/3100-3199/3136.Valid%20Word/README.md)
+- [3137. K 周期字符串需要的最少操作次数](/solution/3100-3199/3137.Minimum%20Number%20of%20Operations%20to%20Make%20Word%20K-Periodic/README.md)
+- [3138. 同位字符串连接的最小长度](/solution/3100-3199/3138.Minimum%20Length%20of%20Anagram%20Concatenation/README.md)
+- [3139. 使数组中所有元素相等的最小开销](/solution/3100-3199/3139.Minimum%20Cost%20to%20Equalize%20Array/README.md)
+
+#### 第 395 场周赛(2024-04-28 10:30, 90 分钟) 参赛人数 2968
+
+- [3131. 找出与数组相加的整数 I](/solution/3100-3199/3131.Find%20the%20Integer%20Added%20to%20Array%20I/README.md)
+- [3132. 找出与数组相加的整数 II](/solution/3100-3199/3132.Find%20the%20Integer%20Added%20to%20Array%20II/README.md)
+- [3133. 数组最后一个元素的最小值](/solution/3100-3199/3133.Minimum%20Array%20End/README.md)
+- [3134. 找出唯一性数组的中位数](/solution/3100-3199/3134.Find%20the%20Median%20of%20the%20Uniqueness%20Array/README.md)
+
+#### 第 129 场双周赛(2024-04-27 22:30, 90 分钟) 参赛人数 2510
+
+- [3127. 构造相同颜色的正方形](/solution/3100-3199/3127.Make%20a%20Square%20with%20the%20Same%20Color/README.md)
+- [3128. 直角三角形](/solution/3100-3199/3128.Right%20Triangles/README.md)
+- [3129. 找出所有稳定的二进制数组 I](/solution/3100-3199/3129.Find%20All%20Possible%20Stable%20Binary%20Arrays%20I/README.md)
+- [3130. 找出所有稳定的二进制数组 II](/solution/3100-3199/3130.Find%20All%20Possible%20Stable%20Binary%20Arrays%20II/README.md)
 
 #### 第 394 场周赛(2024-04-21 10:30, 90 分钟) 参赛人数 3957
 
@@ -2038,7 +2084,7 @@
 - [1558. 得到目标数组的最少函数调用次数](/solution/1500-1599/1558.Minimum%20Numbers%20of%20Function%20Calls%20to%20Make%20Target%20Array/README.md)
 - [1559. 二维网格图中探测环](/solution/1500-1599/1559.Detect%20Cycles%20in%202D%20Grid/README.md)
 
-#### 第 202 场周赛(2020-08-16 10:30, 90 分钟) 参赛人数 4989
+#### 第 202 场周赛(2020-08-16 10:30, 90 分钟) 参赛人数 4990
 
 - [1550. 存在连续三个奇数的数组](/solution/1500-1599/1550.Three%20Consecutive%20Odds/README.md)
 - [1551. 使数组中所有元素相等的最小操作数](/solution/1500-1599/1551.Minimum%20Operations%20to%20Make%20Array%20Equal/README.md)
